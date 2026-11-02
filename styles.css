@@ -1,32 +1,10 @@
-/* Your own rules. This file loads after Tailwind and daisyUI, so it wins a tie.
- * Reach for a utility class first; write CSS here when no utility can do it. */
-
-/* ============================================================ PALETTE
- *
- * "…"
- *
- * Name the mood in a sentence — "a bright room on a Tuesday morning, nothing
- * on the desk" — then list your colors and the job each one does. This block
- * is what you check later decisions against.
- *
- *   primary   #______   the action color: buttons, links, the icons
- *   base-100  #______   the page ground
- *   base-200  #______   sections and cards that step forward from the ground
- *   neutral   #______   the dark band behind the numbers
- */
-
-/* Redeclare the theme's colors here to make them yours. Change `corporate` to the
- * theme on <html>, in every page. Measure both: white on your primary, and your
- * primary as text on the page. Each needs 4.5:1. */
 [data-theme='corporate'] {
-  /* Already filled in: corporate's own #0082ce measures 4.13:1 with white, under
-   * the floor. #0072b8 measures 5.12:1. Measure your replacement the same way. */
-  --color-primary: #0072b8;
-  /* The same for green: corporate's #00a43b measures 3.29:1 with white.
-   * #15803d measures 5.02:1. */
-  --color-success: #15803d;
-  /* --color-primary-content: #______; */
-  /* --color-neutral: #______; */
+
+  --color-primary: #002855;
+  --color-grey: #7d8597;
+  --color-black: #000000;
+  --color-navy: #001d3d;
+  --color-white: #ffffff;
 }
 
 /* ============================================================ TYPE
@@ -34,7 +12,7 @@
  * One face in several weights, Plus Jakarta Sans. To change it, replace the
  * Google Fonts <link> in the <head> of every page, then the name below. */
 body {
-  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 /* ============================================================ THE MESH
