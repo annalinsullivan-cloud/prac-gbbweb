@@ -1,19 +1,9 @@
-[data-theme='corporate'] {
 
-  --color-primary: #002855;
-  --color-grey: #7d8597;
-  --color-black: #000000;
-  --color-navy: #001d3d;
-  --color-white: #ffffff;
-}
 
 /* ============================================================ TYPE
  *
  * One face in several weights, Plus Jakarta Sans. To change it, replace the
  * Google Fonts <link> in the <head> of every page, then the name below. */
-body {
-  font-family: "Playfair Display", serif;
-}
 
 /* ============================================================ THE MESH
  *
